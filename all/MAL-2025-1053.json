@@ -1,0 +1,35 @@
+{
+  "id": "MAL-2025-1053",
+  "summary": "Malicious code in typespublishercontenthash (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-02-03T17:25:15Z",
+  "published": "2025-02-03T17:25:15Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "typespublishercontenthash",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/typespublishercontenthash"
+      },
+      "versions": [
+        "99.99.99"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/typespublishercontenthash/MAL-2025-1053.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

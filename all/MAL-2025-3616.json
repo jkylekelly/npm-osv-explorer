@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3616",
+  "summary": "Malicious code in commons-net (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (01fc821715d3f327c2080415c9a3db5c0f95a8a9f36135b0e6efb377796227da)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-pprg-r9r7-pv53"
+  ],
+  "modified": "2025-05-07T00:59:25.171989Z",
+  "published": "2025-05-06T06:01:21Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-06T06:01:26Z",
+        "import_time": "2025-05-07T00:36:57.539699943Z",
+        "id": "GHSA-pprg-r9r7-pv53",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "01fc821715d3f327c2080415c9a3db5c0f95a8a9f36135b0e6efb377796227da"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-pprg-r9r7-pv53"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "commons-net",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/commons-net"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/commons-net/MAL-2025-3616.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

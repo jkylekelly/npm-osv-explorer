@@ -1,0 +1,42 @@
+{
+  "id": "MAL-2025-3662",
+  "summary": "Malicious code in @gfgtech/ui (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-05-05T15:35:33Z",
+  "published": "2025-05-05T15:35:33Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@gfgtech/ui",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40gfgtech/ui"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "99.9.1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@gfgtech/ui/MAL-2025-3662.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3293",
+  "summary": "Malicious code in watch-test-unit (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (0f501b9331b4c944a1dd7832349e4c20f23512f98948d44975636aa01952dc96)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-h9f4-ff99-wqf8"
+  ],
+  "modified": "2025-04-24T00:57:08.043420Z",
+  "published": "2025-04-23T05:16:40Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-04-23T05:16:40Z",
+        "import_time": "2025-04-24T00:35:55.030605432Z",
+        "id": "GHSA-h9f4-ff99-wqf8",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "0f501b9331b4c944a1dd7832349e4c20f23512f98948d44975636aa01952dc96"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-h9f4-ff99-wqf8"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "watch-test-unit",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/watch-test-unit"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/watch-test-unit/MAL-2025-3293.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

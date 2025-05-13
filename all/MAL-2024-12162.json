@@ -1,0 +1,35 @@
+{
+  "id": "MAL-2024-12162",
+  "summary": "Malicious code in v2-foundry (npm)",
+  "details": "This package runs commands in a pre-install script that exfils sensitive data to a attacker-controlled domain.",
+  "modified": "2024-12-29T23:37:50Z",
+  "published": "2024-12-29T23:37:50Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "v2-foundry",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/v2-foundry"
+      },
+      "versions": [
+        "9.9.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/v2-foundry/MAL-2024-12162.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "GitHax",
+      "contact": [
+        "https://githax.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

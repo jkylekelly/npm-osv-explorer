@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2025-3507",
+  "summary": "Malicious code in amazonui (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (0dceb2c114b04c00ca48af9f80e1c242ac3c7bc5409f780a6eadc2c6232eae1a)\nThe OpenSSF Package Analysis project identified 'amazonui' @ 2026.0.1 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "modified": "2025-04-05T13:55:43Z",
+  "published": "2025-04-05T13:55:43Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-04-05T13:55:43Z",
+        "import_time": "2025-04-29T00:49:52.529597984Z",
+        "versions": [
+          "2026.0.1"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "0dceb2c114b04c00ca48af9f80e1c242ac3c7bc5409f780a6eadc2c6232eae1a"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "amazonui",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/amazonui"
+      },
+      "versions": [
+        "2026.0.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/amazonui/MAL-2025-3507.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

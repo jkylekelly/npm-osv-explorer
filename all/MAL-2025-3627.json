@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3627",
+  "summary": "Malicious code in istanbul-reporter-lcov (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (f78f358d122dd8a0f065ddfff80c9983f2fefa9f82579dacbeb8b3e10a9c60d4)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-q847-5jp3-cqx9"
+  ],
+  "modified": "2025-05-07T00:59:25.515187Z",
+  "published": "2025-05-06T06:17:42Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-06T06:17:43Z",
+        "import_time": "2025-05-07T00:36:57.543525845Z",
+        "id": "GHSA-q847-5jp3-cqx9",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "f78f358d122dd8a0f065ddfff80c9983f2fefa9f82579dacbeb8b3e10a9c60d4"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-q847-5jp3-cqx9"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "istanbul-reporter-lcov",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/istanbul-reporter-lcov"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/istanbul-reporter-lcov/MAL-2025-3627.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

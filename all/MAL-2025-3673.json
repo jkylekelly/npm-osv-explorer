@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3673",
+  "summary": "Malicious code in @johndeere-tech/helios-ng-components (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (5cafd54c91f17226053b5247b4cd518c79cc4e6462f2bf35455fc9a9f8b55c42)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-6w7w-2f29-6rh9"
+  ],
+  "modified": "2025-05-08T00:59:10.808321Z",
+  "published": "2025-05-07T04:58:58Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-07T04:58:58Z",
+        "import_time": "2025-05-08T00:37:16.078451937Z",
+        "id": "GHSA-6w7w-2f29-6rh9",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "5cafd54c91f17226053b5247b4cd518c79cc4e6462f2bf35455fc9a9f8b55c42"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-6w7w-2f29-6rh9"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@johndeere-tech/helios-ng-components",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40johndeere-tech/helios-ng-components"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@johndeere-tech/helios-ng-components/MAL-2025-3673.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

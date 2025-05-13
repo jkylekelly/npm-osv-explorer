@@ -1,0 +1,42 @@
+{
+  "id": "MAL-2025-3717",
+  "summary": "Malicious code in gql-test-client (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-05-05T18:16:34Z",
+  "published": "2025-05-05T18:16:34Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "gql-test-client",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/gql-test-client"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "99.0.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/gql-test-client/MAL-2025-3717.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

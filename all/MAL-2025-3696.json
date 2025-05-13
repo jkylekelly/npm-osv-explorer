@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3696",
+  "summary": "Malicious code in poc-npm-hooks (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (c566d52416b7be560224ad7d3f57924013882a6ee87a79754da4ba6f174c2106)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-rmhq-jwp5-622q"
+  ],
+  "modified": "2025-05-08T00:59:12.237900Z",
+  "published": "2025-05-07T04:54:17Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-07T04:54:18Z",
+        "import_time": "2025-05-08T00:37:16.104737223Z",
+        "id": "GHSA-rmhq-jwp5-622q",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "c566d52416b7be560224ad7d3f57924013882a6ee87a79754da4ba6f174c2106"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-rmhq-jwp5-622q"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "poc-npm-hooks",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/poc-npm-hooks"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/poc-npm-hooks/MAL-2025-3696.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3520",
+  "summary": "Malicious code in @reserach_org_jfhalsdhfkslsfds/openai-server-skfghdg (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (531ef457dbcd25a906548abdc4d37822a3b2e6ceebbc9faa5eb06f2352bb1525)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-r6hh-8vfr-qg79"
+  ],
+  "modified": "2025-04-30T00:58:22.990222Z",
+  "published": "2025-04-29T02:50:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-04-29T02:50:24Z",
+        "import_time": "2025-04-30T00:36:38.169953342Z",
+        "id": "GHSA-r6hh-8vfr-qg79",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "531ef457dbcd25a906548abdc4d37822a3b2e6ceebbc9faa5eb06f2352bb1525"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-r6hh-8vfr-qg79"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@reserach_org_jfhalsdhfkslsfds/openai-server-skfghdg",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40reserach_org_jfhalsdhfkslsfds/openai-server-skfghdg"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@reserach_org_jfhalsdhfkslsfds/openai-server-skfghdg/MAL-2025-3520.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

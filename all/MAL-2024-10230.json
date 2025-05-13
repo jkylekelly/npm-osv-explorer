@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-10230",
+  "summary": "Malicious code in acl-icon-font (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (b4af7dc2206054a72c4259605f63cbb9506b545b310ada1fb06e0a0e9941fbd3)\nThe OpenSSF Package Analysis project identified 'acl-icon-font' @ 99999.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "modified": "2024-10-24T23:45:24Z",
+  "published": "2024-10-24T23:45:24Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-10-24T23:45:24Z",
+        "import_time": "2024-10-25T00:21:16.692611227Z",
+        "versions": [
+          "99999.99.99"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "b4af7dc2206054a72c4259605f63cbb9506b545b310ada1fb06e0a0e9941fbd3"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "acl-icon-font",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/acl-icon-font"
+      },
+      "versions": [
+        "99999.99.99"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/acl-icon-font/MAL-2024-10230.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

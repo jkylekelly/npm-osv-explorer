@@ -1,0 +1,42 @@
+{
+  "id": "MAL-2025-3712",
+  "summary": "Malicious code in eipsend (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-05-05T17:50:08Z",
+  "published": "2025-05-05T17:50:08Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "eipsend",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/eipsend"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "1.0.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/eipsend/MAL-2025-3712.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

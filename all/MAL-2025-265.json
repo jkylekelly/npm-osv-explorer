@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2025-265",
+  "summary": "Malicious code in openssl-node (npm)",
+  "details": "This package executes a post-install script to collect system data and sends it to a remote server.",
+  "modified": "2025-01-19T13:27:34Z",
+  "published": "2025-01-19T13:27:34Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://cycode.com/blog/malicious-code-hidden-in-npm-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "openssl-node",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/openssl-node"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/openssl-node/MAL-2025-265.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Elad Pticha - Cycode",
+      "contact": [
+        "https://cycode.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-11457",
+  "summary": "Malicious code in solara-installer (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-12-09T05:03:28Z",
+  "published": "2024-12-09T05:03:28Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-12-09T05:03:28Z",
+        "import_time": "2024-12-09T14:38:34.656830119Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "id": "RLMA-2024-10837",
+        "source": "reversing-labs",
+        "sha256": "db917273b45ffecf0163b5c1e13c27fbc1b6ed5870bd002dfa6995d160adfe73"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "solara-installer",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/solara-installer"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/solara-installer/MAL-2024-11457.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

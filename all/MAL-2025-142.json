@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2025-142",
+  "summary": "Malicious code in next-refresh-token (npm)",
+  "details": "This package executes a post-install script to collect system data and sends it to a remote server.",
+  "modified": "2025-01-19T13:31:36Z",
+  "published": "2025-01-19T13:31:36Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://cycode.com/blog/malicious-code-hidden-in-npm-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "next-refresh-token",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/next-refresh-token"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/next-refresh-token/MAL-2025-142.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Elad Pticha - Cycode",
+      "contact": [
+        "https://cycode.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

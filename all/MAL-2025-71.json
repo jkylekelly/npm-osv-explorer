@@ -1,0 +1,35 @@
+{
+  "id": "MAL-2025-71",
+  "summary": "Malicious code in secure-toolkits (npm)",
+  "details": "This package contains a multi-functional infostealer malware which establishes C2 via Discord, exfiltrating sensitive user data and files and providing remote shell access to an attacker.",
+  "modified": "2025-01-10T17:22:10Z",
+  "published": "2025-01-10T17:22:10Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "secure-toolkits",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/secure-toolkits"
+      },
+      "versions": [
+        "1.0.5"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/secure-toolkits/MAL-2025-71.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Stacklok Insight: insight.stacklok.com",
+      "contact": [
+        "https://discord.com/invite/RkzVuTp3WK"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

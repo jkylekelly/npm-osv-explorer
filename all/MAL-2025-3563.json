@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2025-3563",
+  "summary": "Malicious code in meridian-web-sdk-assets (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (45f5c3f1045ca20f9a2d52ed25f6e638e6057a1cc6f83d30da51a6d2acc8d1ea)\nThe OpenSSF Package Analysis project identified 'meridian-web-sdk-assets' @ 1.0.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2025-05-01T07:12:59Z",
+  "published": "2025-05-01T07:12:59Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-01T07:12:59Z",
+        "import_time": "2025-05-01T07:34:59.029233824Z",
+        "versions": [
+          "1.0.0"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "45f5c3f1045ca20f9a2d52ed25f6e638e6057a1cc6f83d30da51a6d2acc8d1ea"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "meridian-web-sdk-assets",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/meridian-web-sdk-assets"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/meridian-web-sdk-assets/MAL-2025-3563.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

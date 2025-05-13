@@ -1,0 +1,35 @@
+{
+  "id": "MAL-2025-1039",
+  "summary": "Malicious code in html-webpack-plugin-v5 (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-02-03T17:25:15Z",
+  "published": "2025-02-03T17:25:15Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "html-webpack-plugin-v5",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/html-webpack-plugin-v5"
+      },
+      "versions": [
+        "9.9.99"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/html-webpack-plugin-v5/MAL-2025-1039.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

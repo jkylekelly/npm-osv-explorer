@@ -1,0 +1,36 @@
+{
+  "id": "MAL-2025-17",
+  "summary": "Malicious code in facetec-browser-sdk (npm)",
+  "details": "This package runs commands in a pre-install script that exfils sensitive data to a attacker-controlled domain.",
+  "modified": "2025-01-02T23:51:59Z",
+  "published": "2025-01-02T23:51:59Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "facetec-browser-sdk",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/facetec-browser-sdk"
+      },
+      "versions": [
+        "9.6.95",
+        "9.6.96"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/facetec-browser-sdk/MAL-2025-17.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "GitHax - Software Supply Chain Threat Intelligence",
+      "contact": [
+        "https://githax.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

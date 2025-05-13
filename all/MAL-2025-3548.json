@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3548",
+  "summary": "Malicious code in cxo-storyboard (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (52b7107790e92d1adcdda6e4a16e6496f43bd80329629721bd96a0e03591c4f7)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-hpmg-345p-5p79"
+  ],
+  "modified": "2025-05-01T00:59:36.007449Z",
+  "published": "2025-04-30T13:09:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-04-30T13:09:12Z",
+        "import_time": "2025-05-01T00:40:52.611109414Z",
+        "id": "GHSA-hpmg-345p-5p79",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "52b7107790e92d1adcdda6e4a16e6496f43bd80329629721bd96a0e03591c4f7"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-hpmg-345p-5p79"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "cxo-storyboard",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/cxo-storyboard"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/cxo-storyboard/MAL-2025-3548.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

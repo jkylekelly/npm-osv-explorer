@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-11369",
+  "summary": "Malicious code in iherb-react-environment (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+  "modified": "2024-12-09T01:35:12Z",
+  "published": "2024-12-09T01:35:12Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-12-09T01:35:12Z",
+        "import_time": "2024-12-09T14:38:24.793505015Z",
+        "versions": [
+          "99.9999.6"
+        ],
+        "id": "RLMA-2024-10611",
+        "source": "reversing-labs",
+        "sha256": "fbe70c5125673d9b47eb26506e6bcfeac10e58b08fc01a64b42d08dbdbf86d92"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "iherb-react-environment",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/iherb-react-environment"
+      },
+      "versions": [
+        "99.9999.6"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/iherb-react-environment/MAL-2024-11369.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "ReversingLabs",
+      "contact": [
+        "https://www.reversinglabs.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

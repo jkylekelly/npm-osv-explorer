@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2025-3560",
+  "summary": "Malicious code in rei-session (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (d68e3a71a672f50a7fa8d3debb624ed8d4f354dd2b117c79e4a57445ec388a9f)\nThe OpenSSF Package Analysis project identified 'rei-session' @ 1.4.4 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2025-05-01T05:20:53Z",
+  "published": "2025-05-01T05:20:53Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-01T05:20:53Z",
+        "import_time": "2025-05-01T05:37:32.243147451Z",
+        "versions": [
+          "1.4.4"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "d68e3a71a672f50a7fa8d3debb624ed8d4f354dd2b117c79e4a57445ec388a9f"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "rei-session",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/rei-session"
+      },
+      "versions": [
+        "1.4.4"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/rei-session/MAL-2025-3560.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3554",
+  "summary": "Malicious code in managethis (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (c683dca54122fc6e6b92b5c4b1b65e4fdb4accc582812cd422e28002c5166946)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-945g-hjr2-v27h"
+  ],
+  "modified": "2025-05-01T00:59:35.719984Z",
+  "published": "2025-04-30T09:13:23Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-04-30T09:13:24Z",
+        "import_time": "2025-05-01T00:40:52.606037952Z",
+        "id": "GHSA-945g-hjr2-v27h",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "c683dca54122fc6e6b92b5c4b1b65e4fdb4accc582812cd422e28002c5166946"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-945g-hjr2-v27h"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "managethis",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/managethis"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/managethis/MAL-2025-3554.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2025-3666",
+  "summary": "Malicious code in ias-dashboard-assets (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (d1426f218a41211359d48baa86b5c86a54aa0cf835e70d767ed82d61145d1282)\nThe OpenSSF Package Analysis project identified 'ias-dashboard-assets' @ 99.9.1 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2025-05-07T09:17:59Z",
+  "published": "2025-05-07T09:17:59Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-07T09:17:59Z",
+        "import_time": "2025-05-07T09:37:56.274786561Z",
+        "versions": [
+          "99.9.1"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "d1426f218a41211359d48baa86b5c86a54aa0cf835e70d767ed82d61145d1282"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "ias-dashboard-assets",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/ias-dashboard-assets"
+      },
+      "versions": [
+        "99.9.1"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/ias-dashboard-assets/MAL-2025-3666.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

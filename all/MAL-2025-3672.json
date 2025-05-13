@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3672",
+  "summary": "Malicious code in @johndeere-tech/eslint-plugin-timbercloud-custom-rules (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (61308d7848e55b8e455ca17307d037a12cbcb121760bacc64d9f8b574c08861d)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-gmvx-f3f4-hhjg"
+  ],
+  "modified": "2025-05-08T00:59:11.462857Z",
+  "published": "2025-05-07T04:58:58Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-07T04:59:05Z",
+        "import_time": "2025-05-08T00:37:16.090009084Z",
+        "id": "GHSA-gmvx-f3f4-hhjg",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "61308d7848e55b8e455ca17307d037a12cbcb121760bacc64d9f8b574c08861d"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-gmvx-f3f4-hhjg"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@johndeere-tech/eslint-plugin-timbercloud-custom-rules",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40johndeere-tech/eslint-plugin-timbercloud-custom-rules"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@johndeere-tech/eslint-plugin-timbercloud-custom-rules/MAL-2025-3672.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

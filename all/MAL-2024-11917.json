@@ -1,0 +1,46 @@
+{
+  "id": "MAL-2024-11917",
+  "summary": "Malicious code in @goldenfront/core (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (a91124edf585cef5a6883d31fd4fe073543341aa26b71700806957e38745fabd)\nThe OpenSSF Package Analysis project identified '@goldenfront/core' @ 99.99.100 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "modified": "2024-12-18T20:55:50Z",
+  "published": "2024-12-18T20:55:50Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2024-12-18T20:55:50Z",
+        "import_time": "2024-12-18T21:05:32.821338626Z",
+        "versions": [
+          "99.99.100"
+        ],
+        "source": "ossf-package-analysis",
+        "sha256": "a91124edf585cef5a6883d31fd4fe073543341aa26b71700806957e38745fabd"
+      }
+    ]
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@goldenfront/core",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40goldenfront/core"
+      },
+      "versions": [
+        "99.99.100"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@goldenfront/core/MAL-2024-11917.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

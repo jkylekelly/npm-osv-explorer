@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3679",
+  "summary": "Malicious code in bitpay-push-notification-client (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (ff585151e0d20f0a3114337d0053b2fa14d0b74c758b8d3a60f9645028bba9f3)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-29r4-552c-6384"
+  ],
+  "modified": "2025-05-08T00:59:10.052140Z",
+  "published": "2025-05-07T04:46:43Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-07T04:46:44Z",
+        "import_time": "2025-05-08T00:37:16.063720322Z",
+        "id": "GHSA-29r4-552c-6384",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "ff585151e0d20f0a3114337d0053b2fa14d0b74c758b8d3a60f9645028bba9f3"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-29r4-552c-6384"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "bitpay-push-notification-client",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/bitpay-push-notification-client"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/bitpay-push-notification-client/MAL-2025-3679.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

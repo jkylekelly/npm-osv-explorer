@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3492",
+  "summary": "Malicious code in graphhopper-js-ui (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (528454d3ceaec479832ef3607c05e7f1a1f58026c1a94fcfb2b3835b952d9c2c)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-rpp4-mc6v-x968"
+  ],
+  "modified": "2025-04-29T00:59:37.422476Z",
+  "published": "2025-04-28T06:22:52Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-04-28T06:22:53Z",
+        "import_time": "2025-04-29T00:36:26.152463731Z",
+        "id": "GHSA-rpp4-mc6v-x968",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "528454d3ceaec479832ef3607c05e7f1a1f58026c1a94fcfb2b3835b952d9c2c"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-rpp4-mc6v-x968"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "graphhopper-js-ui",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/graphhopper-js-ui"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/graphhopper-js-ui/MAL-2025-3492.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "MAL-2025-3663",
+  "summary": "Malicious code in @ixm-apps/mf-admin-user (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-05-05T15:44:10Z",
+  "published": "2025-05-05T15:44:10Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@ixm-apps/mf-admin-user",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40ixm-apps/mf-admin-user"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "99.9.1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@ixm-apps/mf-admin-user/MAL-2025-3663.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

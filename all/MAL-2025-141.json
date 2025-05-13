@@ -1,0 +1,48 @@
+{
+  "id": "MAL-2025-141",
+  "summary": "Malicious code in serve-static-corell (npm)",
+  "details": "This package includes a post-install script that fetches JavaScript code from a remote server and executes it.",
+  "modified": "2025-01-19T12:48:22Z",
+  "published": "2025-01-19T12:48:22Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "references": [
+    {
+      "type": "ARTICLE",
+      "url": "https://cycode.com/blog/malicious-code-hidden-in-npm-packages/"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "serve-static-corell",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/serve-static-corell"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/serve-static-corell/MAL-2025-141.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Elad Pticha - Cycode",
+      "contact": [
+        "https://cycode.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

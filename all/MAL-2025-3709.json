@@ -1,0 +1,42 @@
+{
+  "id": "MAL-2025-3709",
+  "summary": "Malicious code in earthdata-search (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-05-05T17:43:28Z",
+  "published": "2025-05-05T17:43:28Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "earthdata-search",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/earthdata-search"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "5.0.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/earthdata-search/MAL-2025-3709.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

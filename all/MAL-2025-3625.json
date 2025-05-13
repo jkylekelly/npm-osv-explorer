@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3625",
+  "summary": "Malicious code in internallib_v803 (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (0d6d38a29b98b95b7e5d60a3c961be6d62342f6ab74f8069f6a6d03b290a0396)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-23q7-7855-5f5c"
+  ],
+  "modified": "2025-05-07T00:59:22.191315Z",
+  "published": "2025-05-06T07:01:16Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-06T07:01:23Z",
+        "import_time": "2025-05-07T00:36:57.50239866Z",
+        "id": "GHSA-23q7-7855-5f5c",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "0d6d38a29b98b95b7e5d60a3c961be6d62342f6ab74f8069f6a6d03b290a0396"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-23q7-7855-5f5c"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "internallib_v803",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/internallib_v803"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/internallib_v803/MAL-2025-3625.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

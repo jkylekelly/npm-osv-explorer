@@ -1,0 +1,35 @@
+{
+  "id": "MAL-2025-658",
+  "summary": "Malicious code in flashcards-sdk-converter (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-01-30T16:55:51Z",
+  "published": "2025-01-30T16:55:51Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "flashcards-sdk-converter",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/flashcards-sdk-converter"
+      },
+      "versions": [
+        "1.0.0"
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/flashcards-sdk-converter/MAL-2025-658.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

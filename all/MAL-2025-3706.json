@@ -1,0 +1,42 @@
+{
+  "id": "MAL-2025-3706",
+  "summary": "Malicious code in @igain/react-app (npm)",
+  "details": "The package communicates with a domain associated with malicious activity.",
+  "modified": "2025-05-05T16:04:02Z",
+  "published": "2025-05-05T16:04:02Z",
+  "database_specific": {
+    "malicious-packages-origins": null
+  },
+  "affected": [
+    {
+      "package": {
+        "name": "@igain/react-app",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40igain/react-app"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "99.9.1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@igain/react-app/MAL-2025-3706.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0",
+  "credits": [
+    {
+      "name": "Amazon Inspector",
+      "contact": [
+        "actran@amazon.com"
+      ],
+      "type": "FINDER"
+    }
+  ]
+}

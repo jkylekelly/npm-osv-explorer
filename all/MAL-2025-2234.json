@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-2234",
+  "summary": "Malicious code in @supera/aaaaaaaaaaa (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (d347fb8b1e6f331c8dc5ba623c0b5f80932085711d95fd7e3f209c5180b5f79e)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-4wcc-qx99-p2m8"
+  ],
+  "modified": "2025-03-12T01:02:00.254311Z",
+  "published": "2025-03-11T21:35:51Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-03-11T21:35:51Z",
+        "import_time": "2025-03-12T00:33:42.260851471Z",
+        "id": "GHSA-4wcc-qx99-p2m8",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "d347fb8b1e6f331c8dc5ba623c0b5f80932085711d95fd7e3f209c5180b5f79e"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-4wcc-qx99-p2m8"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "@supera/aaaaaaaaaaa",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/%40supera/aaaaaaaaaaa"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/@supera/aaaaaaaaaaa/MAL-2025-2234.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3551",
+  "summary": "Malicious code in express-validator-plugin (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (67d1a336f4415ad211b6844d41de64f77697780083624b44fdeb0e5e9d4270ac)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-ch7p-gp94-p86j"
+  ],
+  "modified": "2025-05-01T00:59:35.793539Z",
+  "published": "2025-04-30T12:41:11Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-04-30T12:41:11Z",
+        "import_time": "2025-05-01T00:40:52.606826129Z",
+        "id": "GHSA-ch7p-gp94-p86j",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "67d1a336f4415ad211b6844d41de64f77697780083624b44fdeb0e5e9d4270ac"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-ch7p-gp94-p86j"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "express-validator-plugin",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/express-validator-plugin"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/express-validator-plugin/MAL-2025-3551.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}

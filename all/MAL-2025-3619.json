@@ -1,0 +1,67 @@
+{
+  "id": "MAL-2025-3619",
+  "summary": "Malicious code in dayjs-plugin-duration (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ghsa-malware (38d6c09f6f8900e2be647537f5342bb545a0ee4b4affee0e47006cc43da3d489)\nAny computer that has this package installed or running should be considered fully compromised. All secrets and keys stored on that computer should be rotated immediately from a different computer. The package should be removed, but as full control of the computer may have been given to an outside entity, there is no guarantee that removing the package will remove all malicious software resulting from installing it.\n",
+  "aliases": [
+    "GHSA-f6jh-fp96-qw2v"
+  ],
+  "modified": "2025-05-07T00:59:24.055386Z",
+  "published": "2025-05-06T05:47:50Z",
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "modified_time": "2025-05-06T05:47:50Z",
+        "import_time": "2025-05-07T00:36:57.527042219Z",
+        "id": "GHSA-f6jh-fp96-qw2v",
+        "ranges": [
+          {
+            "events": [
+              {
+                "introduced": "0"
+              }
+            ],
+            "type": "SEMVER"
+          }
+        ],
+        "source": "ghsa-malware",
+        "sha256": "38d6c09f6f8900e2be647537f5342bb545a0ee4b4affee0e47006cc43da3d489"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-f6jh-fp96-qw2v"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "name": "dayjs-plugin-duration",
+        "ecosystem": "npm",
+        "purl": "pkg:npm/dayjs-plugin-duration"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "cwes": [
+          {
+            "description": "The product contains code that appears to be malicious in nature.",
+            "cweId": "CWE-506",
+            "name": "Embedded Malicious Code"
+          }
+        ],
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/npm/dayjs-plugin-duration/MAL-2025-3619.json"
+      }
+    }
+  ],
+  "schema_version": "1.6.0"
+}
